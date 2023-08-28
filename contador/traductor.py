@@ -12,7 +12,8 @@ class Traductor():
         self.contador= Contador()
         
     def avanzar(self):
-        time.sleep(1)
+ 
         self.binario.avanzar()
         self.octal.avanzar()
         self.hexa.avanzar()
+        self.contador.avanzar()
