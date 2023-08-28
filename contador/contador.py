@@ -5,4 +5,4 @@ class Contador:
     def avanzar(self):
         self.valor+=1
         if self.valor==self.tope:
-            self.valor=0
+            self.valor=1

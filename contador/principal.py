@@ -7,11 +7,14 @@ s=int(input("ingrese el sistema a contar en digitos: "))
 input("\nPresione enter para iniciar el conteo...")
 for i in range(n):
     if s==2:
-        print(bin(t.contador.valor)[2:])
+        print(bin(t.binario.valor)[2:])
     elif s==8:
-        print(oct(t.contador.valor)[2:])
+        print(oct(t.octal.valor)[2:])
     elif s==16:
-        print(hex(t.contador.valor))
+        print(hex(t.hexa.valor))
     elif s==10:
         print(t.contador.valor)
+    if i==n:
+        print("\t ／l、\n\t（ﾟ､ ｡７\n\t⠀l、ﾞ~ヽ\n\t じし(_, )ノ\n")
+    t.avanzar()
     
